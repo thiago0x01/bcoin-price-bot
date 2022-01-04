@@ -5,15 +5,22 @@
   "author": "Thiago Machado <thcosta0@hotmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "ts-node-dev index.ts"
+    "dev": "ts-node-dev src/index.ts",
+    "start": "ts-node index.ts",
+    "build": "next build"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "axios-oauth-1.0a": "^0.3.4",
+    "cron": "^1.8.2",
+    "dotenv": "^10.0.0",
+    "puppeteer": "^13.0.1",
+    "puppeteer-core": "^13.0.1",
+    "ts-node": "^10.4.0"
   },
   "devDependencies": {
     "@types/cron": "^1.7.3",
     "ts-node-dev": "^1.1.8",
     "typescript": "^4.5.4"
-  },
-  "dependencies": {
-    "axios": "^0.24.0",
-    "cron": "^1.8.2"
   }
 }
