@@ -14,7 +14,13 @@
     "emitDecoratorMetadata": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "baseUrl": "."
+    "baseUrl": ".",
+    "paths": {
+      "@configs/*": ["src/configs/*"],
+      "@controllers/*": ["src/controllers/*"],
+      "@tokens/*": ["src/tokens/*"],
+      "@tools/*": ["src/tools"],
+    }
   },
   "include": ["src/**/*"]
 }
