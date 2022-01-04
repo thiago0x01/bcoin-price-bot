@@ -7,20 +7,13 @@
     "outDir": "./dist",
     "rootDir": "./src",
     "removeComments": true,
-    "typeRoots": ["./node_modules/@types", "./src/@types"],
     "esModuleInterop": true,
     "resolveJsonModule": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "baseUrl": ".",
-    "paths": {
-      "@configs/*": ["src/configs/*"],
-      "@controllers/*": ["src/controllers/*"],
-      "@tokens/*": ["src/tokens/*"],
-      "@tools/*": ["src/tools"],
-    }
+    "baseUrl": "src"
   },
   "include": ["src/**/*"]
 }

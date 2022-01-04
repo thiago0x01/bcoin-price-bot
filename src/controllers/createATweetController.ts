@@ -1,7 +1,7 @@
-import currencyConverterAPI from '@configs/currencyConverterAPI';
-import twitterV2 from '@configs/twitterV2';
-import { getPrice, getPriceShift } from '@tokens/BCOIN';
-import { convertCurrency } from '@tools/';
+import currencyConverterAPI from '../configs/currencyConverterAPI';
+import twitterV2 from '../configs/twitterV2';
+import { getPrice, getPriceShift } from '../tokens/BCOIN';
+import { convertCurrency } from '../tools/';
 
 async function createATweetController() {
   const brlPrice = await getPrice();
