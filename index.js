@@ -1,4 +1,4 @@
-import createATweetController from './controllers/createATweetController';
+import createATweetController from './src/controllers/createATweetController.js';
 import { CronJob } from 'cron';
 import 'dotenv/config';
 

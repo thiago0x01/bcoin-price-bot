@@ -1,8 +1,6 @@
-import { ElementHandle } from 'puppeteer';
-
 export function convertCurrency(
-  parity: number,
-  brlPrice: ElementHandle<string>
+  parity,
+  brlPrice
 ) {
   return (parity * parseFloat(brlPrice.toString().slice(2))).toFixed(2);
 }
