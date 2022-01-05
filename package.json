@@ -14,7 +14,6 @@
     "dotenv": "^10.0.0",
     "puppeteer": "^13.0.1",
     "puppeteer-core": "^13.0.1",
-    "twit": "^2.2.11",
     "twitter-api-client": "^1.5.1"
   }
 }
