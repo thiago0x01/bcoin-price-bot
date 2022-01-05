@@ -15,7 +15,7 @@ export async function getPrice() {
 }
 
 export async function getPriceShift() {
-  const browser = await puppeteer.launch();
+  const browser = await puppeteer.launch({ args: ['--no-sandbox'] });
 
   const page = await browser.newPage();
   await page.goto('https://coinmarketcap.com/pt-br/currencies/bombcrypto/');
