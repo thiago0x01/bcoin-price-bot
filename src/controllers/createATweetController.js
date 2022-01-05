@@ -1,6 +1,7 @@
 import axios from 'axios';
 import { TwitterClient } from 'twitter-api-client';
 import { getPrice, getPriceShift } from '../tokens/BCOIN.js';
+import { convertCurrency } from '../tools';
 
 async function createATweetController() {
   const brlPrice = await getPrice();
