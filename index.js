@@ -1,11 +1,13 @@
-import createATweetController from './src/controllers/createATweetController.js';
 import { CronJob } from 'cron';
 import 'dotenv/config';
+import createATweet from './createATweet.js';
 
 const job = new CronJob('0 */30 9-23 * * *', async () => {
-  await createATweetController();
+  await createATweet();
 
   console.log('Prices tweeted at', new Date());
 });
+
+createATweet();
 
 job.start();
