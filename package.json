@@ -1,5 +1,5 @@
 {
-  "name": "bcoinpricebot",
+  "name": "bcoin-price-bot",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Thiago Machado <thcosta0@hotmail.com>",
